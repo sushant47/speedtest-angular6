@@ -1,3 +1,31 @@
-<p>
-  speedtest works!
-</p>
+<h1>HTML5 Speedtest</h1>
+  <div id="startStopBtn" onclick="startStop()"></div>
+  <div id="test">
+    <div class="testGroup">
+      <div class="testArea">
+        <div class="testName">Download</div>
+        <div id="dlText" class="meterText"></div>
+        <div class="unit">Mbps</div>
+      </div>
+      <div class="testArea">
+        <div class="testName">Upload</div>
+        <div id="ulText" class="meterText"></div>
+        <div class="unit">Mbps</div>
+      </div>
+    </div>
+    <div class="testGroup">
+      <div class="testArea">
+        <div class="testName">Ping</div>
+        <div id="pingText" class="meterText"></div>
+        <div class="unit">ms</div>
+      </div>
+      <div class="testArea">
+        <div class="testName">Jitter</div>
+        <div id="jitText" class="meterText"></div>
+        <div class="unit">ms</div>
+      </div>
+    </div>
+    <div id="ipArea">
+      IP Address: <span id="ip"></span>
+    </div>
+  </div>
